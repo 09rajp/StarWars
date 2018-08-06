@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>trivia Game</title>
+  </head>
+  <body>
+        <div class="container-fluid">
+            <div class="container" >
+                <div id="about"> Chalange Your Brand!</div>
+                <div class="row justify-content-md-center" >
+                    <div class="col col-lg-2">
+                    </div>
+                    <div class="col-md-auto" id="title">
+                        <h1 class="title">Trivia Game</h1>
+                    </div>
+                    <div class="col col-lg-2">
+                    </div>
+                </div>
+                <div class="container" id="infos">
+                    <div class="row">
+                        <div class="col-sm times">
+                            <p id="times" style="padding-top: 20px !important;"></p>   
+                        </div>
+                        <div class="col-sm" id="questions">         
+                            <p id="question1"></p>
+                            <p id="answerTitle"></p>
+                        </div>
+                        <div class="col-sm winGrid" >
+                            <p id="wins"></p>
+                            <p id="loses"></p>
+                            <p id="notAnswer"></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        <br>
+
+            <div class="col" id="leftMotion">
+          
+            </div>
+            <div class="col-6" id="images">
+                    <h2 id="answerImages"></h2>
+                    <button id="button">Start the Game</button>
+                    <button id="startOver" ></button>
+                    <h4 id="results" ></h4>
+                    <h4 id="endWins"></h4>
+                    <h4 id="endLoses"></h4>
+                    <h4 id="unanswered"></h4>      
+            </div>
+            <div class="col" id="rightMotion">
+                
+            </div>
+        </div>
+        <div id="questionRow">
+                <section class="answerHolders" id="q1">
+                    <h6 id="answer1-1" ></h6>
+                    <h6 id="answer1-2" class=" wrong1"></h6>
+                    <h6 id="answer1-3" class=" wrong1"></h6>
+                    <h6 id="answer1-4" class=" wrong1"></h6>
+                </section>
+                      
+                <section class="answerHolders" id="q2">
+                    <h5  id="answer2-1" class=" wrong2"></h5>
+                    <h5  id="answer2-2" class=" wrong2"></h5 >
+                    <h5  id="answer2-3"></h5 >
+                    <h5  id="answer2-4" class=" wrong2"></h5 >
+                </section>
+                    
+                <section class="answerHolders" id="q3">
+                    <h5  id="answer3-1" class=" wrong3"></h5 >
+                    <h5 id="answer3-2"></h5>
+                    <h5 id="answer3-3" class=" wrong3"></h5>
+                    <h5 id="answer3-4" class=" wrong3"></h5>
+                </section>
+
+                <section class="answerHolders" id="q4">
+                    <h6 id="answer4-1" ></h6>
+                    <h6 id="answer4-2" class=" wrong4"></h6>
+                    <h6 id="answer4-3" class=" wrong4"></h6>
+                    <h6 id="answer4-4" class=" wrong4"></h6>
+                </section>
+
+                <section class="answerHolders" id="q5">
+                    <h6 id="answer5-1" class=" wrong5"></h6>
+                    <h6 id="answer5-2" class=" wrong5" ></h6>
+                    <h6 id="answer5-3" class=" wrong5"></h6>
+                    <h6 id="answer5-4" ></h6>
+                </section>
+
+                <section class="answerHolders" id="q6">
+                    <h6 id="answer6-1"></h6>
+                    <h6 id="answer6-2" class=" wrong6" ></h6>
+                    <h6 id="answer6-3" class=" wrong6"></h6>
+                    <h6 id="answer6-4" class=" wrong6"></h6>
+                </section>
+
+                <section class="answerHolders" id="q7">
+                    <h6 id="answer7-1" class=" wrong7" ></h6>
+                    <h6 id="answer7-2" ></h6>
+                    <h6 id="answer7-3" class=" wrong7"></h6>
+                    <h6 id="answer7-4" class=" wrong7"></h6>
+                </section>
+                
+                <section class="answerHolders" id="q8">
+                    <h6 id="answer8-1" class=" wrong8"></h6>
+                    <h6 id="answer8-2"  ></h6>
+                    <h6 id="answer8-3" class=" wrong8"></h6>
+                    <h6 id="answer8-4" class=" wrong8"></h6>
+                </section>
+
+                <section class="answerHolders" id="q9">
+                    <h6 id="answer9-1" class=" wrong9"></h6>
+                    <h6 id="answer9-2" ></h6>
+                    <h6 id="answer9-3" class=" wrong9" ></h6>
+                    <h6 id="answer9-4" class=" wrong9"></h6>
+                </section>
+
+                <section class="answerHolders" id="q10">
+                    <h6 id="answer10-1" ></h6>
+                    <h6 id="answer10-2" class=" wrong10" ></h6>
+                    <h6 id="answer10-3" class=" wrong10"></h6>
+                    <h6 id="answer10-4" class=" wrong10"></h6>
+                </section>
+
+        </div>
+        <br>
+        
+        <div class="row justify-content-md-center" id="footer">
+            <div class="col col-lg-2">
+            
+            </div>
+            <div class="col-md-auto">
+            &copy;2018 Taylor Yao
+            </div>
+            <div class="col col-lg-2">
+        </div>
+        
+        </div>
+
+
+    <script src="assets/javascript/app.js" ></script>
+  </body>
+</html>

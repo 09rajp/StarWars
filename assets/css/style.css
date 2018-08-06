@@ -1,0 +1,302 @@
+html{
+    margin: 0px auto !important;
+    background-color: white;
+    background-image: url("../images/b-image3.jpg");
+    width: 960px;
+    margin-top: 20px !important;
+    min-height: 100px;
+    padding: 20px;
+}
+
+body{
+    background-color: white;
+    
+    position: sticky;
+    bottom: 50px;
+    height: 550px;
+    border: 5px double black;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#title{
+    border: 5px teal inset;
+    border-radius: 20px;
+    margin: 20px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+}
+#about{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 360px;
+    font-size: 28px;
+
+}
+#infos{
+    margin-top: 10px !important;
+    background-color: teal;
+    height: 100px; 
+    border: solid  black;
+    border-radius: -50px;
+}
+h2{
+    position: absolute;
+    left: 260px;
+    text-align: center;
+}
+h6{
+    position: relative;
+    top: 50px;
+}
+#imageRow{
+  
+    height: 150px;
+}
+#questionRow{
+    background-color:white;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+   
+}
+#questions{
+    background-color: white;
+    border: darkslategray inset 3px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 30px;
+    margin: 10px;
+    position: relative;
+    right: 15px;
+}
+#question1{
+    margin-top: 10px;
+
+}
+#times{
+    background-color: white;
+    border: darkslategray inset 3px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 30px;
+    margin: 10px;
+    font-size: 18 px;
+    height: 80px;
+    width: 250px;
+    position: relative;
+    right: 15px;
+    background-color: silver;
+}
+/* #rightMotion{
+    position: absolute;
+    left: 680px;
+    bottom: 120px;
+    width: 200px;
+    height: 160px;
+    background-color: gray;  
+}
+#leftMotion{
+    position: absolute;
+    left: 30px;
+    bottom: 120px;
+    width: 200px;
+    height: 160px;
+    background-color: gray;  
+} */
+
+.winGrid{
+    background-color: white;
+    border: darkslategray inset 3px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 30px;
+    margin: 10px;
+    width: 220px;
+    background-color: silver;
+    
+}
+#wins{
+    margin-bottom: 0px;
+}
+#loses{
+    margin-bottom: 0px;
+}
+#notAnswer{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    left: 25px;
+}
+
+section{
+    text-align: center;
+    position: relative;
+}
+#q1{
+    
+    position: fixed;
+    bottom: 00px;
+    top: 220px;
+    left: 560px;
+  
+}
+
+#q2{
+    
+    position: absolute;
+    bottom: 00px;
+    top: 90px;
+    left: 340px;
+}
+#q3{
+    position: absolute;
+    bottom: 0px;
+    top: 90px;
+    left: 340px;
+}
+#q4{
+    position: absolute;
+    bottom: 0px;
+    top: 50px;
+    left: 340px;
+}
+#q5{
+    position: absolute;
+    bottom: 0px;
+    top: 50px;
+    left: 340px;
+}
+#q6{
+    position: absolute;
+    bottom: 0px;
+    top: 50px;
+    left: 340px;
+}
+#q7{
+    position: absolute;
+    bottom: 0px;
+    top: 50px;
+    left: 340px;
+}
+#q8{
+    position: absolute;
+    bottom: 0px;
+    top: 50px;
+    left: 340px;
+}
+#q9{
+    position: absolute;
+    bottom: 0px;
+    top: 50px;
+    left: 340px;
+}
+#q10{
+    position: absolute;
+    bottom: 0px;
+    top: 50px;
+    left: 340px;
+}
+
+
+#footer{
+    background-color: teal;
+    position: absolute;
+    top: 520px;
+    left: 11px;
+    width: 101%;
+    height: 30px;
+}
+#images{
+    position: relative;
+    left: 50px;
+}
+#button{
+    color:teal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    width: 280px;
+    height: 80px;
+    background-color: white;
+    border: 5px inset teal;
+    border-radius: 50px;
+    position: relative;
+    left: 240px;
+    top: 50px;
+}
+#startOver{
+    color:teal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    width: 280px;
+    height: 80px;
+    border: 5px inset rgb(0, 238, 255);
+    border-radius: 50px;
+    position: relative;
+    left: 240px;
+    bottom: 25px;
+    border: 5px inset teal;
+    margin-top: 20px;
+}
+
+#startOver:hover{
+    background-color: teal;
+    width: 280px;
+    border:3px inset gray;
+    border-radius: 50px;
+    color: white;
+}
+#images>h4{
+    position: relative;
+    left: 180px;
+    border-bottom: 80px;
+    text-align: center;
+}
+
+#button:hover{
+    background-color: teal;
+    width: 280px;
+    border:3px inset grey;
+    border-radius: 50px;
+    color: white;
+}
+h6{
+    font-size: 18px;
+    margin: 20px;
+    border: 3px  initial grey;
+    background-color: skyblue;
+    border-radius: 20px;
+    background-size: cover;
+    width: 200px;
+}
+h5{
+    margin: 20px;
+    border: 3px  initial grey;
+    background-color: skyblue;
+    border-radius: 20px;
+    background-size: cover;
+    width: 200px;
+}
+h6:hover {
+    background-color: teal;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    width: 200px;
+    border:3px inset grey;
+    border-radius: 30px;
+    height: 35px;
+}
+h5:hover{
+    background-color: teal;
+    text-align: center !important;
+    text-align: left;
+    position: relative;
+    right: 0px;
+    width: 200px;
+    border:3px inset grey;
+    border-radius: 30px;
+    height: 35px;
+}
